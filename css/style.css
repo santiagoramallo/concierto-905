@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* estilo body */ 
+body {
+    background-image: url('../assets/img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* estilo header */
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/* estilo nav */
+.menu {
+display: flex;
+justify-content:space-around;
+width: 80%;
+padding-top: 1em;
+padding-bottom: 1em;
+border-bottom: 2px solid white;
+}
+
+.menu a img {
+  width: 90px;
+}
+
+.menu ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* estilo main */
+.main-home {
+ height: 1000px;
+}
+
+/* estilo carrusel */
+.carrusel {
+ height: 50%;
+}
+
+.carrusel img {
+  height: 100%;
+  width: 100%;
+}
+
+/* estilo section */
+.section2 {
+  background-color: white;
+  height: 20%;
+  margin-top: 2em;
+}
+
+/* estilo footer */
+footer {
+border-top: 1px solid white;
+}
+
+
+.footer-grupo {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em auto;
+  
+}
+.link-rrss{
+  text-decoration: none;
+  color: white;  
+}
+
+.footer-iconos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1.5em;
+}
+
+.footer-logo img {
+  width: 80px;
+
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+}
+
+/* Pagina PROGRAMACION*/
+
+.main-programacion {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+.img-programacion {
+  width: 40%;
+}
+
+.img-programacion img {
+  width: 100%;
+}
+
+.texto-programacion {
+  width: 40%;
+  color: white;
+}
+/* Pagina RANKING*/
+.ranking {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin: 0 auto;
+  height: 80vh;
+  width: 70%;
+  border-top: 4em;
+}
+
+
+/* Pagina FORMULARIO*/
+.formulario {
+  height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  color: white;
+}
+
+/* Pagina NOTICIAS*/
+.main-noticias {
+  width: 100%;
+  margin-top: 3em;
+}
+
+.noticia{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 2em;
+}
+
+.noticia p{
+  text-align: center;
+}
+.noticia p a{
+  text-decoration: none;
+  color: white;
+}
